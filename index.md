@@ -1,10 +1,11 @@
-# Creating Todo List
-Recently, we had a project to do. I did a project like this before, however it was not in python,we used javascript. So, this task was very new to me.  
+# Titanic Survivors 
+The Titanic dataset has sparked numerous questions, inviting me to unravel its layers of information. Beyond survival rates and demographics, I'm intrigued by the untold stories and hidden patterns within the data. It's a captivating journey, unveiling the human dynamics aboard the historic vessel.  
 
 ---
 
-# Steps to Create Todo List 
-First step was to create a list of todos 
+# What is the percentage of those that survived?
+
+The first ste
 ```python 
 todolist=["get money", "save money", "rejoice"]
 ``` 
