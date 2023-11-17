@@ -1,10 +1,10 @@
-# Creating Todo List
-Recently, we had a project to do. I did a project like this before, however it was not in python,we used javascript. So, this task was very new to me.  
+# Creating Graphs About Titanic  
+The Titanic was a British passenger liner that famously sank on its maiden voyage in April 1912 after hitting an iceberg, resulting in the loss of over 1,500 lives. It remains one of the most well-known maritime disasters in history. 
+
 
 ---
 
-# Steps to Create Todo List 
-First step was to import pandas as pd to help with the data analysis 
+# Create Question: What is the survival rate?
 ```python 
 import pandas as pd 
 df = pd.read_csv('titanic.csv') 
@@ -108,11 +108,11 @@ plt.text('Under 18', survival_rate, f'{survival_rate:.2%}', ha='center', va='bot
 
 plt.show() 
 ```  
-In these lines of code, we compute the survival rate for passengers under the age of 18 in the Titanic dataset and visually represent it through a simple bar chart. The blue bar signifies the survival rate, and a precise percentage label enhances the clarity of the visualization, conveying the proportion of young passengers who survived the tragic event. 
+In these lines of code, we compute the survival rate for passengers under the age of 18 in the Titanic dataset and visually represent it through a simple bar chart. The blue bar shows the survival rate, and a precise percentage label enhances the clarity of the visualization, showing the proportion of young passengers who survived the titanic. 
 
 <img src="blog/assets/under18(1).png">  
 
 # Obstacles 
-
+Creating a blog post from this code might be tricky because it assumes readers have the Titanic dataset, and the code could be a bit tough for those not familiar with programming. To make it more reader-friendly, it would help to explain the purpose of the code, break down key concepts, and provide extra information on potential issues with the data. Making sure the post is clear about interpreting the visual results and giving tips for using the code in different situations would also be beneficial.
 
 
